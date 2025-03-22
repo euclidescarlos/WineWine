@@ -36,3 +36,11 @@ O modelo lógico foi criado com base no modelo conceitual, definindo as tabelas 
 - **Endereco**: `EnderecoID (PrimaryKey)`, `CEP`, `ClientelD (ForeignKey)`
 - **Pedido**: `RedidoID (PrimaryKey)`, `ClientelD (ForeignKey)`, `EnderecoID (ForeignKey)`, `ProdutoID (ForeignKey)`,  `Pagamento`
 - **Produto**: `ProdutoID (PrimaryKey)`, `Nome`, `Preco`, `Estoque`
+
+
+## 🔗 Links
+
+- **Modelo Conceitual** : https://app.brmodeloweb.com/#!/publicview/67d4b21550a65ecc6d275028
+-  **Modelo Lógico** : https://app.brmodeloweb.com/#!/publicview/67de179ea403760776b15254
+
+OBS.: Os modelos também estão em PDF no repositório! 😊
