@@ -32,7 +32,7 @@ O modelo conceitual foi desenvolvido para representar as entidades e seus relaci
 
 O modelo lógico foi criado com base no modelo conceitual, definindo as tabelas e colunas que serão implementadas no banco de dados. As tabelas principais incluem:
 
-- **Cliente**: `ClientelD`, `Nome`, `CPF`, `Telefone`, `Email`, `EnderecoID`
-- **Endereco**: `EnderecoID`, `Rua`, `Numero`, `Cidade`, `Estado`, `CEP`
-- **Pedido**: `RedidoID`, `ClientelD`, `EnderecoID`, `Pagamento`
-- **Produto**: `ProdutoID`, `Nome`, `Prgco`, `Estoque`
+- **Cliente**: `ClientelD (PrimaryKey)`, `Nome`, `CPF`, `Telefone`, `Email`, `EnderecoID(ForeignKey)`
+- **Endereco**: `EnderecoID (PrimaryKey)`, `CEP`, `ClientelD (ForeignKey)`
+- **Pedido**: `RedidoID (PrimaryKey)`, `ClientelD (ForeignKey)`, `EnderecoID (ForeignKey)`, `ProdutoID (ForeignKey)`,  `Pagamento`
+- **Produto**: `ProdutoID (PrimaryKey)`, `Nome`, `Preco`, `Estoque`
