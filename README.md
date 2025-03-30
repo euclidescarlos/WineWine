@@ -51,5 +51,5 @@ Segue exemplo abaixo:
 
 - **Modelo Conceitual** : https://app.brmodeloweb.com/#!/publicview/67d4b21550a65ecc6d275028
 - **Modelo Lógico** : https://app.brmodeloweb.com/#!/publicview/67de179ea403760776b15254
-- **Modelo Físico** : 
+  
 OBS.: Os modelos também estão em PDF no repositório! 😊
