@@ -4,7 +4,7 @@ Projeto desenvolvido para a disciplina de "Desenvolvimento para dispositivos mó
 
 ## 🙋 Equipe
 
-- **Angelo Santos** - Matrícula: 01707596
+- **Ângelo Santos** - Matrícula: 01707596
 - **Eduardo Henrique** - Matrícula: 01706530
 - **Euclides Neto** - Matrícula: 01696172
 - **Gabriel Teixeira** - Matrícula: 01413025
@@ -28,7 +28,7 @@ O modelo conceitual foi desenvolvido para representar as entidades e seus relaci
 - **Pedido-Endereco**: Cada pedido está associado a um endereço de entrega.
 - **Pedido-Produto**: Um pedido pode conter vários produtos, e um produto pode estar em vários pedidos.
 
-## 📝 Modelo Lógico
+## 📝 Modelo Logico
 
 O modelo lógico foi criado com base no modelo conceitual, definindo as tabelas e colunas que serão implementadas no banco de dados. As tabelas principais incluem:
 
