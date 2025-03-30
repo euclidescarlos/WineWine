@@ -1,6 +1,6 @@
-# 💻 Projeto de Banco de Dados - Modelos Conceituais e Lógicos
+# 💻 Projeto de Banco de Dados - Modelos Conceituais, Lógicos e Físicos 
 
-Projeto desenvolvido para a disciplina Projeto Banco de Dados do 3 período de ADS, onde trabalhamos com modelos conceituais e lógicos para representar e analisar um sistema de gerenciamento de clientes e pedidos.
+Projeto desenvolvido para a disciplina Projeto Banco de Dados do 3 período de ADS, onde trabalhamos com modelos conceituais, lógicos e físicos para representar e analisar um sistema de gerenciamento de clientes e pedidos.
 
 ## 🙋 Equipe
 
