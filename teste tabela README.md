@@ -42,10 +42,10 @@ O modelo lógico foi criado com base no modelo conceitual, definindo as tabelas 
 O modelo físico traduz o modelo lógico em uma estrutura mais concreta e detalhada de dados que será implementada no sistema de banco de dados, garantindo uma representação mais fiel.
 Segue exemplo abaixo:
 
--**Cliente**: `ClienteID INT PRIMARY KEY AUTO_INCREMENT`, `Nome VARCHAR(100) NOT NULL`, `CPF CHAR(11) UNIQUE NOT NULL`, `Telefone VARCHAR(15)`, `Email VARCHAR(100) UNIQUE`, `EnderecoID INT`, `FOREIGN KEY (EnderecoID) REFERENCES Endereco(EnderecoID)`
--**Endereco**: `EnderecoID INT PRIMARY KEY AUTO_INCREMENT`, `CEP CHAR(8) NOT NULL`, `ClienteID INT`, `FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID)`
--**Pedido**: `ProdutoID INT PRIMARY KEY AUTO_INCREMENT`, `Nome VARCHAR(100) NOT NULL`, `Preco DECIMAL(10,2) NOT NULL`, `Estoque INT NOT NULL`
--**Produto**: `PedidoID INT PRIMARY KEY AUTO_INCREMENT`, `ClienteID INT NOT NULL`, `EnderecoID INT NOT NULL`, `Pagamento VARCHAR(50) NOT NULL`, `FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID)`, `FOREIGN KEY (EnderecoID) REFERENCES Endereco(EnderecoID)`
+- **Cliente**: `ClienteID INT PRIMARY KEY AUTO_INCREMENT`, `Nome VARCHAR(100) NOT NULL`, `CPF CHAR(11) UNIQUE NOT NULL`, `Telefone VARCHAR(15)`, `Email VARCHAR(100) UNIQUE`, `EnderecoID INT`, `FOREIGN KEY (EnderecoID) REFERENCES Endereco(EnderecoID)`
+- **Endereco**: `EnderecoID INT PRIMARY KEY AUTO_INCREMENT`, `CEP CHAR(8) NOT NULL`, `ClienteID INT`, `FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID)`
+- **Pedido**: `ProdutoID INT PRIMARY KEY AUTO_INCREMENT`, `Nome VARCHAR(100) NOT NULL`, `Preco DECIMAL(10,2) NOT NULL`, `Estoque INT NOT NULL`
+- **Produto**: `PedidoID INT PRIMARY KEY AUTO_INCREMENT`, `ClienteID INT NOT NULL`, `EnderecoID INT NOT NULL`, `Pagamento VARCHAR(50) NOT NULL`, `FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID)`, `FOREIGN KEY (EnderecoID) REFERENCES Endereco(EnderecoID)`
 
 ## 🔗 Links
 
