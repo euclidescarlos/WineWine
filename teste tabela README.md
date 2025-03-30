@@ -1,6 +1,6 @@
-# 💻 Projeto de Banco de Dados - Modelos Conceituais, Lógicos e Físicos 
+# 💻 Desenvolvimento para dispositivos móveis - Modelos Conceituais, Lógicos e Físicos 
 
-Projeto desenvolvido para a disciplina Projeto Banco de Dados do 3 período de ADS, onde trabalhamos com modelos conceituais, lógicos e físicos para representar e analisar um sistema de gerenciamento de clientes e pedidos.
+Projeto desenvolvido para a disciplina de "Desenvolvimento para dispositivos móveis" do 3 período de ADS, onde trabalhamos com modelos conceituais, lógicos e físicos para representar e analisar um sistema de gerenciamento de clientes e pedidos.
 
 ## 🙋 Equipe
 
@@ -37,10 +37,19 @@ O modelo lógico foi criado com base no modelo conceitual, definindo as tabelas 
 - **Pedido**: `RedidoID (PrimaryKey)`, `ClientelD (ForeignKey)`, `EnderecoID (ForeignKey)`, `ProdutoID (ForeignKey)`,  `Pagamento`
 - **Produto**: `ProdutoID (PrimaryKey)`, `Nome`, `Preco`, `Estoque`
 
+## ⚙ Modelo Físico 
+
+O modelo físico traduz o modelo lógico em uma estrutura mais concreta e detalhada de dados que será implementada no sistema de banco de dados, garantindo uma representação mais fiel.
+Segue exemplo abaixo:
+
+| Nome  | CPF | Telefone | Email 
+| ------------- | ------------- | -------------
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## 🔗 Links
 
 - **Modelo Conceitual** : https://app.brmodeloweb.com/#!/publicview/67d4b21550a65ecc6d275028
--  **Modelo Lógico** : https://app.brmodeloweb.com/#!/publicview/67de179ea403760776b15254
-
+- **Modelo Lógico** : https://app.brmodeloweb.com/#!/publicview/67de179ea403760776b15254
+- **Modelo Físico** : 
 OBS.: Os modelos também estão em PDF no repositório! 😊
