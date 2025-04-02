@@ -1,6 +1,6 @@
 # 💻 Desenvolvimento para dispositivos móveis - Modelos Conceituais, Lógicos e Físicos 
 
-Projeto desenvolvido para a disciplina de "Desenvolvimento para dispositivos móveis" do 3 período de ADS, onde trabalhamos com modelos conceituais, lógicos e físicos para representar e analisar um sistema de gerenciamento de clientes e pedidos.
+Projeto desenvolvido para a disciplina de "Desenvolvimento para dispositivos móveis" do 3 período de ADS da Uninassau Caxangá, onde trabalhamos com modelos conceituais, lógicos e físicos para representar e analisar um sistema de gerenciamento de clientes e pedidos.
 
 ## 🙋 Equipe
 
@@ -8,7 +8,7 @@ Projeto desenvolvido para a disciplina de "Desenvolvimento para dispositivos mó
 - **Eduardo Henrique** - Matrícula: 01706530
 - **Euclides Neto** - Matrícula: 01696172
 - **Gabriel Teixeira** - Matrícula: 01413025
-- **Ingrid Larissa** - Matrícula: 01552364 .
+- **Ingrid Larissa** - Matrícula: 01552364
 - **Klebson Apolinário** - Matrícula: 01704173
 - **Samara Jovino** - Matrícula: 01711332
 
